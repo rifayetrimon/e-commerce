@@ -13,3 +13,5 @@ class Product(models.Model):
     category = models.CharField(max_length=200)
     discription = models.TextField()
     image = models.CharField(max_length=300)
+
+
